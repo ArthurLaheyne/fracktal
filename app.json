@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Fracktal",
+    "slug": "fracktal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shakealot.fracktal"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shakealot.fracktal"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "541f9f8b-9450-4bf0-b1f2-7f650f8046e0"
+      }
+    },
+    "owner": "shakealot",
+    "updates": {
+      "url": "https://u.expo.dev/541f9f8b-9450-4bf0-b1f2-7f650f8046e0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
