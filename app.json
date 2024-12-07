@@ -2,9 +2,9 @@
   "expo": {
     "name": "Fracktal",
     "slug": "fracktal",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon-fracktal.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,7 +14,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon-fracktal.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.shakealot.fracktal"
@@ -29,10 +29,13 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/images/splash-icon-fracktal.png",
+          "dark": {
+            "image": "./assets/images/splash-icon-fracktal.png",
+            "backgroundColor": "#444444"
+          },
+          "imageWidth": 200
         }
       ]
     ],
